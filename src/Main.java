@@ -3,9 +3,9 @@ import facade.LaunchFailedException;
 
 public class Main {
     public static void main(String[] args) {
-        launch("Aurora-1", "LEO", 5_000);   // success
-        launch("Titan-X", "GEO", 30_000);   // too heavy
-        launch("Nameless", " ", 2_000);     // invalid orbit
+        launch("Aurora-1", "LEO", 5_000);
+        launch("Titan-X", "GEO", 30_000);
+        launch("Nameless", " ", 2_000);
     }
 
     private static void launch(String mission, String orbit, double payloadKg) {
